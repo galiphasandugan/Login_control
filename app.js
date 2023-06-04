@@ -7,7 +7,7 @@
     submit.addEventListener("click",()=>{
     
        
-        if(password.value.length > 8 && password.value.match(/[!?=)%&*]/gi) !== [] &&  input.includes(...list))
+        if(password.value.length > 7 && password.value.match(/[!?=)%&*]/gi) !== [] &&  input.includes(...list))
          {
             alert("sorulara erişebilirisniz")
         }
